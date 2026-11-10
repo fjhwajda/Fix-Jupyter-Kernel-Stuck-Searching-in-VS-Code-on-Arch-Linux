@@ -95,7 +95,14 @@ Close verything
 
 Run in Terminal:
 ```bash
+# VS Code (AUR: visual-studio-code-bin)
 code --enable-proposed-api ms-toolsai.jupyter
+
+# Code OSS (Offizielles Arch-Repo: code)
+code-oss --enable-proposed-api ms-toolsai.jupyter
+
+# VSCodium (AUR: vscodium)
+codium --enable-proposed-api ms-toolsai.jupyter
 ```
 Choose the Kernel
 
@@ -103,8 +110,17 @@ Close Code-Oss
 
 Reinstalled the Extention with Terminal:
 ```bash
+# VS Code (AUR: visual-studio-code-bin)
 code --uninstall-extension ms-toolsai.jupyter
 code --install-extension ms-toolsai.jupyter
+
+# Code OSS (Offizielles Arch-Repo: code)
+code-oss --uninstall-extension ms-toolsai.jupyter
+code-oss --install-extension ms-toolsai.jupyter
+
+# VSCodium (AUR: vscodium)
+codium --uninstall-extension ms-toolsai.jupyter
+codium --install-extension ms-toolsai.jupyter
 ```
 
 Every time I opened Code the kernel was chosen. no Terminal needed.
